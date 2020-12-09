@@ -1,13 +1,10 @@
-<header>
-    <h2>ようこそBookersへ！</h2>
-</header>
+<h1>Books</h1>
+<h5>Title</h5>
+<h5>Body</h5>
+<% @books.each do |book| %>
+  <span><%= book.title %></span>
+  <span><%= book.body %></span>
+  <p></p>
+<% end %>
 
-
-<main>
-<p>Bookersでは、さまざまな書籍に関するあなたの意見や</p>
-<p>印象を共有し交換することができます</p>
-<p>
-  <a href="">start</a>
-</p>
-</main>
 

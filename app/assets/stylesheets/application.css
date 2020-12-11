@@ -10,3 +10,25 @@ body{
     line-height: 18px;
     margin: 33px;
 }
+
+p{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+
+a{
+  color: #333;
+}
+
+a:visited {
+    color: #666;
+}
+
+a:hover{
+    background-color: #333;
+    color: white;
+}
+
